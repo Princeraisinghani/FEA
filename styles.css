@@ -1,0 +1,220 @@
+body{
+  background-color: black;
+}
+.nav-icon{
+  height: 70px;
+  width:190px;
+  float:left;
+}
+li{
+    display: inline;
+}
+.navbar{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navtab{
+  color: #e8eae6;
+  padding:25px;
+  font-family: 'Orbitron', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing:3px;
+  font-style: italic;
+  }
+.navtab:hover{
+  color:red;
+}
+.navbar-toggler{
+  margin-right: 10px;
+}
+
+/* carousel */
+
+#testimonials{
+  width:100%;
+  height: 30%;
+  text-align: center;
+}
+
+.ironman{
+  height:630px;
+  width:1550px;
+}
+
+
+/* Characters */
+
+.h2 {
+  margin:0 38% 1%;
+  font-size: 48px;
+  font-family: 'Cinzel', serif;
+  color: #e8eae6;
+  display: inline-block;
+  text-decoration: underline;
+}
+.left{
+  color:red;
+  margin-top: 3%;
+  font-family: 'Orbitron', sans-serif;
+}
+.right{
+  color:red;
+  margin-top: 3%;
+  font-family: 'Orbitron', sans-serif;
+  text-align: right;
+}
+
+.profilepictureleft{
+  height:230px;
+  width:200px;
+  margin: 2% 2% 2% 10%;
+  float: left;
+  border-radius: 100%;
+}
+.profilepictureright{
+  height:230px;
+  width:200px;
+  margin: 2% 10% 2% 2%;
+  float: right;
+  border-radius: 95%;
+}
+.paraleft{
+  font-family: 'Prompt', sans-serif;
+  color: #54e346;
+  font-size: 18px;
+  width: 85%;
+  text-align: justify;
+  letter-spacing:1px;
+}
+.pararight{
+  font-family: 'Prompt', sans-serif;
+  color: #54e346;
+  font-size: 18px;
+  margin-left: 15%;
+  width: 75%;
+  text-align: justify;
+  letter-spacing:1px;
+
+}
+
+/* Toys */
+
+.h2toys{
+  margin:0 45% 1%;
+  font-size: 48px;
+  font-family: 'Cinzel', serif;
+  color: #e8eae6;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.card-space {
+ margin:5px 10px 10px 30px;
+
+}
+
+
+.container-fluid{
+  background-color: #393e46;
+  color:white;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+ .ficon{
+   padding-left: 25px;
+   margin-top: 18px;
+ }
+.finish{
+  font-style: italic;
+  font-size: 12px;
+  padding-top: 15px;
+}
+
+.contact-me{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.buttons{
+  background-color: Red;
+color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.buttons:hover{
+  background-color: green;
+}
+/* MOBILE-PHONE */
+ @media (max-width:1200px) {
+   /* Navigation Bar */
+   .navtab{
+     padding:7px;
+     margin-left: 15px;
+   }
+
+   /* carousel */
+
+   .ironman{
+     height:500px;
+     width:1000px;
+}
+   /* Characters */
+   .right {
+     text-align: center;
+     color:red;
+   }
+   .left{
+     color:red;
+     text-align: center;
+     font-family: 'Orbitron', sans-serif;
+   }
+   .h2 {
+     margin:0 0 0 30%;
+     text-align:center;
+     font-size: 48px;
+     font-family: 'Cinzel', serif;
+     color: #e8eae6;
+     float:none;
+     text-decoration: underline;
+   }
+
+   .profilepictureleft{
+     height:280px;
+     width:250px;
+     display: block;
+     margin:5% 27% 0;
+     float:none;
+     border-radius: 0;
+
+   }
+   .profilepictureright{
+     height:280px;
+     width:260px;
+     display: block;
+     margin:5% 27% 0;
+     float:none;
+     border-radius: 0;
+   }
+   .paraleft{
+     font-family: 'Prompt', sans-serif;
+     color: #54e346;
+     font-size: 15px;
+     width:75%;
+     margin-left: 15%;
+    text-align: justify;
+     letter-spacing:1px;
+   }
+   .pararight{
+     font-family: 'Prompt', sans-serif;
+     color: #54e346;
+     font-size: 15px;
+     text-align: justify;
+     letter-spacing:1px;
+
+   }
+
+
+
+ }
